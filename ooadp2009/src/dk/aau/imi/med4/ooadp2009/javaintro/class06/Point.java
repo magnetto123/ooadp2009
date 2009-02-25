@@ -29,7 +29,7 @@ public class Point {
 		setX(x);
 		setY(y);
 	}
-	
+
 	/*
 	 * Every class in Java is a subclass of the Object class. The Object class
 	 * has a method whose signature is
@@ -43,9 +43,11 @@ public class Point {
 	 * 
 	 * should return an appropriate String description of the object t.
 	 * 
-	 * Every class you create should override the toString method that it
-	 * inherits from the Object class. Remember that a class inherits everything
-	 * from its superclass, its superclass's superclass and so on.
+	 * Every class you create therefore inherits a toString method from its
+	 * superclass (which might be the Object class if the class does not have an
+	 * explicit superclass). This inherited method should be overridden in every
+	 * class you create so that it generates a String that appropriately
+	 * represents objects of the class.
 	 * 
 	 * The definition of the toString method should return an appropriate
 	 * description of an instance of the class.
@@ -54,7 +56,7 @@ public class Point {
 	 */
 
 	public String toString() {
-		return "("+getX()+","+getY()+")";
+		return "(" + getX() + "," + getY() + ")";
 	}
 
 }
