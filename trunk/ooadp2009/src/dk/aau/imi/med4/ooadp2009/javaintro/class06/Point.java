@@ -40,7 +40,7 @@ public class Point {
 	 * public String toString()
 	 * 
 	 * This method returns a String that represents the object on which it is
-	 * called. For example,
+	 * called. For example, if t is an object, then
 	 * 
 	 * t.toString();
 	 * 
@@ -56,6 +56,14 @@ public class Point {
 	 * description of an instance of the class.
 	 * 
 	 * This toString method overrides the one defined in the Object class.
+	 * 
+	 * Whenever you print out the value of an object using System.out.println,
+	 * the toString() method is automatically called. For example, if t is an
+	 * Object, then
+	 * 
+	 * System.out.println(t);
+	 * 
+	 * will actually print out the value of t.toString().
 	 */
 
 	public String toString() {
