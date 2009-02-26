@@ -1,7 +1,7 @@
 package dk.aau.imi.med4.ooadp2009.javaintro.class03;
 
 /**
- * Default values, Constructors with arguments, this
+ * Default values, Constructors with arguments, this reference
  */
 public class TestPoint {
 	public static void main(String[] args) {
