@@ -2,13 +2,21 @@ package dk.aau.imi.med4.ooadp2009.javaintro.class06;
 
 public class Point {
 
+	// Private fields
 	private double x, y;
 
+	// Public constructors
 	public Point() {
 		setX(0.0);
 		setY(0.0);
 	}
 
+	public Point(double x, double y) {
+		setX(x);
+		setY(y);
+	}
+
+	// Public getter and setter methods
 	public double getX() {
 		return x;
 	}
@@ -23,11 +31,6 @@ public class Point {
 
 	public void setY(double y) {
 		this.y = y;
-	}
-
-	public Point(double x, double y) {
-		setX(x);
-		setY(y);
 	}
 
 	/*
