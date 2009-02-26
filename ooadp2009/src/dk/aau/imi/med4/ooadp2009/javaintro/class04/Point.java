@@ -35,7 +35,7 @@ public class Point {
 	}
 
 	// By convention, a setter method should have the signature
-	// "public void setVar(VarType newValue)" 
+	// "public void setVar(VarType newValue)"
 	// where the name of the field is var and the
 	// type of the field is VarType. The setter will then set the field called
 	// var to have the value newValue. A return type of a setter method should
@@ -70,6 +70,8 @@ public class Point {
 	// arguments, then the default no-args constructor provided by Java becomes
 	// undefined, so you have to explicitly define your own if you want one.
 
+	// Note that, within the class, if there is no ambiguity, there is no need
+	// to use the "this" reference.
 	public Point() {
 		setX(0.0);
 		setY(0.0);
@@ -79,7 +81,8 @@ public class Point {
 	 * Constructor that takes two double arguments, x and y. Now this
 	 * constructor uses the setter methods for x and y. Note that a constructor
 	 * can use any of the methods defined for a class even though the object
-	 * that it constructs is not fully constructed until the constructor has completed.
+	 * that it constructs is not fully constructed until the constructor has
+	 * completed.
 	 */
 	public Point(double x, double y) {
 		setX(x);
