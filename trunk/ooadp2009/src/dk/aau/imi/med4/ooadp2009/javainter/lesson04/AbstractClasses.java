@@ -33,7 +33,6 @@ public class AbstractClasses {
 				System.out.println(" bottomRight = " + s.getBottomRight());
 				s.translate(new Vec(3.0,2.0));
 			}
-			
 		}
 		
 		
