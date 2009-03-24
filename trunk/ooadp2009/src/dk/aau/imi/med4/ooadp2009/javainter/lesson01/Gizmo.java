@@ -12,26 +12,26 @@ public class Gizmo {
 	 * stored in the class itself. Each Gizmo object does not have its own copy
 	 * of this field.
 	 */
-	static int numberOfGizmos = 0;
+	public static int numberOfGizmos = 0;
 
 	/**
 	 * canIAlsoBeTheNumberOfGizmos cannot also be the number of Gizmos because
 	 * it isn't static.
 	 */
-	int canIAlsoBeTheNumberOfGizmos = 0;
+	public int canIAlsoBeTheNumberOfGizmos = 0;
 
 	/**
 	 * id stores the id of this Gizmo
 	 */
-	int id = 0;
+	public int id = 0;
 
 	/**
 	 * canIAlsoBeTheId can't be the ID because it is set using
 	 * canIAlsoBeTheNumberOfGizmos which isn't static.
 	 */
-	int canIAlsoBeTheId = 0;
+	public int canIAlsoBeTheId = 0;
 
-	Gizmo() {
+	public Gizmo() {
 		// Increase static field numberOfGizmos before setting id.
 		id = ++numberOfGizmos;
 
@@ -53,6 +53,11 @@ public class Gizmo {
 			System.out.println(gizmo);
 
 		System.out.println("numberOfGizmos = " + Gizmo.numberOfGizmos);
+
+		// Following won't work because canIAlsoBeTheNumberOfGizmos is not
+		// static and there is therefore a separate copy of this variable for
+		// each object constructed.
+
 		// System.out.println("canIAlsoBeTheNumberOfGizmos = " +
 		// Gizmo.canIAlsoBeTheNumberOfGizmos);
 	}
