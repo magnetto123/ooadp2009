@@ -13,7 +13,7 @@ package dk.aau.imi.med4.ooadp2009.javainter.lesson04;
 public class AbstractClasses {
 	public static void main(String[] args) {
 		
-		//Cannot instantiate a Shape object
+		//Cannot instantiate a Shape object because it is abstract
 //		Shape s = new Shape();
 		
 		Circle c1 = new Circle();
