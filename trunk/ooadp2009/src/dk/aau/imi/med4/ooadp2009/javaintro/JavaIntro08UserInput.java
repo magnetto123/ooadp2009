@@ -6,6 +6,8 @@ import java.util.Scanner;
  * This shows how to do simple text-based user input to a Java program in
  * eclipse. Just type directly in the Console window when the program asks you
  * to.
+ * 
+ * Can also be done from the command line as long as you are in the bin directory.
  */
 public class JavaIntro08UserInput {
 	public static void main(String[] args) {
@@ -13,7 +15,7 @@ public class JavaIntro08UserInput {
 		/*
 		 * First we have to create an instance of the Scanner class and give it
 		 * System.in as its argument. System.in is Java's name for the Console
-		 * window when it is being used as an output stream.
+		 * window when it is being used as an input stream.
 		 */
 		Scanner sc = new Scanner(System.in);
 

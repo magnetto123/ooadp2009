@@ -21,7 +21,7 @@ public class JavaIntro06Conditionals {
 		 * -5 / -3 = 1 (when ints)
 		 * so -5 % -3 = -5 - (1 * -3) = -2
 		 * 5 / -3 = -1 (when ints)
-		 * so 5 / -3 = 5 - (-1 * -3) = 2
+		 * so 5 % -3 = 5 - (-1 * -3) = 2
 		 */
 		
 		System.out.println("5 % 3 = " + (5 % 3));
@@ -38,6 +38,7 @@ public class JavaIntro06Conditionals {
 		 * for a range of positive and negative values of a and b.
 		 * Should print nothing!
 		 */
+		System.out.println("The following cases disprove that a % b = a - (c * b):");
 		for(int a = -5; a < 6; a++) {
 			for(int b = -5; b < 6; b++) {
 				if (b != 0) {//Cannot divide by zero.
@@ -59,7 +60,7 @@ public class JavaIntro06Conditionals {
 		}
 		
 		System.out.println("\nCycle through Red, Green and Blue");
-		//Note absence of {..}: Only needed if block contains more than one "line".
+		//Note absence of {..}: Only needed if block contains more than one statement.
 		for(int i = 0; i < 10; i++)
 			if (i % 3 == 0) 
 				System.out.println("Red");
