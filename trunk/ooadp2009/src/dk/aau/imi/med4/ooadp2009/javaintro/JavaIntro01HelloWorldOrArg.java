@@ -3,14 +3,17 @@ package dk.aau.imi.med4.ooadp2009.javaintro;
 /**
  * A program that prints the string "Hello world!" to the console.
  */
-public class JavaIntro01HelloWorld {
+public class JavaIntro01HelloWorldOrArg {
 	
 	/**
 	 * Main method
 	 * @param args Array of Strings containing command-line parameters.
 	 */
 	public static void main(String[] args) {
-		System.out.println("Hello world!");
+		if (args.length==0)
+			System.out.println("Hello world!");
+		else
+			System.out.println("Hello "+args[0]);
 	}
 }
 
