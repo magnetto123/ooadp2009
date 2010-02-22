@@ -1,5 +1,7 @@
 package dk.aau.imi.med4.ooadp2009.javaintro.classex;
 
+import dk.aau.imi.med4.ooadp2009.javaintro.classex.solutions.Parallelogram;
+
 public class TestParallelogram {
 	public static void main(String[] args) {
 		/*
