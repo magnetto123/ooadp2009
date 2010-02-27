@@ -11,7 +11,7 @@ public class FinalFields {
 		// Can't do it because the pi field is final and it has already been
 		// assigned.
 
-		// Now we create a Fooble object. It's final ip field is
+		// Now we create a Fooble object. Its final ip field is
 		// initialized to 1.413 in the declaration of the ip field.
 		Fooble f = new Fooble();
 		System.out.println("f.ip = " + f.ip);
