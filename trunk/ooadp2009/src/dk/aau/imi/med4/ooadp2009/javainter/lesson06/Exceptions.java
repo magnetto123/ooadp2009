@@ -2,9 +2,6 @@ package dk.aau.imi.med4.ooadp2009.javainter.lesson06;
 
 /**
  * This lesson shows how exception handling is done in Java.
- * 
- * @author dave
- * 
  */
 public class Exceptions {
 
