@@ -31,7 +31,6 @@ public class Point implements Comparable<Point>{
 		this.y = y;
 	}
 
-	@Override
 	public int compareTo(Point o) {
 		if (o.getX() < getX()) return 1;
 		if (o.getX() > getX()) return -1;
