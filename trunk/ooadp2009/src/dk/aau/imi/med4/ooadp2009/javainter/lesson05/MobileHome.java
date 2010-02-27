@@ -24,42 +24,34 @@ public class MobileHome implements Home, Vehicle {
 		this.topSpeed = topSpeed;
 	}
 
-	@Override
 	public String getAddress() {
 		return address;
 	}
 
-	@Override
 	public Double getGroundArea() {
 		return groundArea;
 	}
 
-	@Override
 	public Double getInternalArea() {
 		return internalArea;
 	}
 
-	@Override
 	public Integer getNumberOfRooms() {
 		return numberOfRooms;
 	}
 
-	@Override
 	public Double getEngineCapacity() {
 		return engineCapacity;
 	}
 
-	@Override
 	public Double getFuelEconomy() {
 		return fuelEconomy;
 	}
 
-	@Override
 	public FuelType getFuelType() {
 		return fuelType;
 	}
 
-	@Override
 	public Double getTopSpeed() {
 		return topSpeed;
 	}
