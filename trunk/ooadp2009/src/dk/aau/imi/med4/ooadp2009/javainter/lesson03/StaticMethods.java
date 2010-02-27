@@ -20,15 +20,17 @@ public class StaticMethods {
 			System.out.println(gizmo);
 
 		/*
-		 * We now call the static method, getNumberOfGizmos to print out the number of Gizmos created.
+		 * We now call the static method, getNumberOfGizmos to print out the 
+		 * number of Gizmos created.
 		 */
 		System.out.println("numberOfGizmos = " + Gizmo.getNumberOfGizmos());
 
 		/*
 		 * Several standard classes also have useful static methods.
 		 * 
-		 * For example, the wrapper classes for the primitive numeric types have parseXXX 
-		 * methods that interpret a String of characters as a numeric value.
+		 * For example, the wrapper classes for the primitive numeric types 
+		 * have parseXXX methods that interpret a String of characters as a 
+		 * numeric value.
 		 * 
 		 */
 		
