@@ -9,9 +9,6 @@ import java.util.TreeSet;
 /**
  * This class introduces the Collection interface and some useful
  * implementations of it, HashSet, TreeSet and ArrayList.
- * 
- * @author dave
- * 
  */
 public class Collections {
 	public static void main(String[] args) {
@@ -75,7 +72,7 @@ public class Collections {
 		c.add(p5);
 
 		/*
-		 * Like every Java object, an Collection can be printed out. Note that,
+		 * Like every Java object, a Collection can be printed out. Note that,
 		 * because ArrayList is unordered, the Points are printed out in the
 		 * order they were added to the list.
 		 */
@@ -139,7 +136,7 @@ public class Collections {
 		System.out.println(c + " has a size of " + c.size());
 
 		/*
-		 * Sometimes we want to a collection to be a set of objects, rather than
+		 * Sometimes we want a collection to be a set of objects, rather than
 		 * a list. What's the difference? No two elements of a set can be equal,
 		 * whereas two or more elements in a List can be equal.
 		 * 
