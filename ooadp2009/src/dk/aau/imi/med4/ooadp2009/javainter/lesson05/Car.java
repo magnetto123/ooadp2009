@@ -15,22 +15,18 @@ public class Car implements Vehicle {
 		this.topSpeed = topSpeed;
 	}
 
-	@Override
 	public Double getEngineCapacity() {
 		return engineCapacity;
 	}
 
-	@Override
 	public Double getFuelEconomy() {
 		return fuelEconomy;
 	}
 
-	@Override
 	public FuelType getFuelType() {
 		return fuelType;
 	}
 
-	@Override
 	public Double getTopSpeed() {
 		return topSpeed;
 	}

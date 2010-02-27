@@ -15,22 +15,18 @@ public class House implements Home {
 		this.numberOfRooms = numberOfRooms;
 	}
 
-	@Override
 	public String getAddress() {
 		return address;
 	}
 
-	@Override
 	public Double getGroundArea() {
 		return groundArea;
 	}
 
-	@Override
 	public Double getInternalArea() {
 		return internalArea;
 	}
 
-	@Override
 	public Integer getNumberOfRooms() {
 		return numberOfRooms;
 	}
