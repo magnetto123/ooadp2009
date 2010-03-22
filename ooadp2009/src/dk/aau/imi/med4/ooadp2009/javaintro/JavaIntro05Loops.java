@@ -19,7 +19,6 @@ public class JavaIntro05Loops {
 			System.out.println(j);
 		}
 		
-		
 		System.out.println("\nNow we count using do-while");
 		int k = 0;
 		//Do-while loop always executes at least once!

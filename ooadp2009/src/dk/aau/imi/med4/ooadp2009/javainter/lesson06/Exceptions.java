@@ -50,7 +50,7 @@ public class Exceptions {
 			System.out.println(parseInt("-123"));
 			System.out.println(parseInt("-0123"));
 			System.out.println(parseInt("123.0"));
-			// System.out.println(parseInt("12c3"));
+			 System.out.println(parseInt("12c3"));
 			// System.out.println(parseInt("+123"));
 		} catch (InvalidArgumentException e) {
 			// Define what should be done if an InvalidArgumentException is

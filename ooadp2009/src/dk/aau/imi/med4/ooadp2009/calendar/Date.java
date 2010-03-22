@@ -34,7 +34,6 @@ public class Date implements Comparable<Date> {
 			getDayOfMonth()+" "+getMonth()+" "+getYear();
 	}
 
-	@Override
 	public int compareTo(Date date) {
 		if (date == null) return 1;
 		if (this.equals(date)) return 0;

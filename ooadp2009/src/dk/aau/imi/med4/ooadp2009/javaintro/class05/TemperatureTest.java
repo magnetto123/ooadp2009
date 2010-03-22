@@ -50,7 +50,7 @@ public class TemperatureTest {
 
 		/*
 		 * If we had used public fields and accessed them directly, we would
-		 * have had to do the conversion every time we accessed or set the the
+		 * have had to do the conversion every time we accessed or set the 
 		 * field values and manually made sure that they were always in
 		 * agreement with each other.
 		 */

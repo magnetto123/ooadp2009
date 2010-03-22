@@ -14,7 +14,7 @@ public class Session3Question05 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Please enter a string and press ENTER: ");
-		String s1 = sc.nextLine();
+		String s1 = sc.nextLine(); //Using nextLine instead of next allows spaces.
 		System.out.print("Please enter a second string and press ENTER: ");
 		String s2 = sc.nextLine();
 		String alphabeticallyEarlier = "";

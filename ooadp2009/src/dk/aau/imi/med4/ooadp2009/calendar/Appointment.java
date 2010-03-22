@@ -71,7 +71,6 @@ public class Appointment implements Comparable<Appointment>{
 		return true;
 	}
 	
-	@Override
 	/**
 	 * Sorts Appointment objects chronologically 
 	 * by date, then start time, then end time;

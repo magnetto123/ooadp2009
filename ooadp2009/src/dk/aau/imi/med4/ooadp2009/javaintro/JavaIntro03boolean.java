@@ -18,5 +18,8 @@ public class JavaIntro03boolean {
 		System.out.println("3 <= 3 is " + (3 <= 3));
 		System.out.println("3 <= 2 is " + (3 <= 2));
 		System.out.println("3 == 3 is " + (3 == 3));
+		
+		boolean b = ((3 / -2) > - 1.5);
+		System.out.println("b is "+ b );
 	}
 }

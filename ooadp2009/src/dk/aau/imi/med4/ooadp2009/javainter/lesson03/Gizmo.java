@@ -24,12 +24,10 @@ public class Gizmo {
 		id = ++numberOfGizmos;
 	}
 
-	/**
-	 * Has to be static because it uses the static field numberOfGizmos.
-	 * 
+	/** 
 	 * @return The current value of the static field numberOfGizmos.
 	 */
-	public static int getNumberOfGizmos() {
+	public int getNumberOfGizmos() {
 		return numberOfGizmos;
 	}
 
