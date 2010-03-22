@@ -73,7 +73,6 @@ public class ToDoItem implements Comparable<ToDoItem> {
 		return true;
 	}
 	
-	@Override
 	public int compareTo(ToDoItem toDo) {
 		if (toDo == null) return 1;
 		if (this.equals(toDo)) return 0;
