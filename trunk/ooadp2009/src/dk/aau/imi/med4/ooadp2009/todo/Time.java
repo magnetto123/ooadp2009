@@ -30,7 +30,6 @@ public class Time implements Comparable<Time>{
 		return true;
 	}
 	
-	@Override
 	public int compareTo(Time time) {
 		if (time == null) return 1;
 		if (this.equals(time)) return 0;
