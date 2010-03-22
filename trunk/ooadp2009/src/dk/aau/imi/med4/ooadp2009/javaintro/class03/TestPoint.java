@@ -21,14 +21,14 @@ public class TestPoint {
 		 */
 
 		// [Make a constructor that sets the values of instance variables.]
-//		p = new Point(3, 5);
-//		System.out.println("p.x = " + p.x + " and p.y = " + p.y);
-//
-//		Point q = new Point(5.5, 7.5);
-//		System.out.println("q.x = " + q.x + " and q.y = " + q.y);
-//
-//		Point r = new Point(q.x + p.x, q.y + p.y);
-//		System.out.println("r.x = " + r.x + " and r.y = " + r.y);
+		p = new Point(3, 5);
+		System.out.println("p.x = " + p.x + " and p.y = " + p.y);
+
+		Point q = new Point(5.5, 7.5);
+		System.out.println("q.x = " + q.x + " and q.y = " + q.y);
+
+		Point r = new Point(q.x + p.x, q.y + p.y);
+		System.out.println("r.x = " + r.x + " and r.y = " + r.y);
 
 		/*
 		 * If the no-args constructor in Point.java is now commented out, then

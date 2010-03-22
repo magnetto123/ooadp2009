@@ -11,7 +11,7 @@ public class Session3Question01 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Please enter your name (and then press ENTER): ");
-		String name = sc.nextLine();
+		String name = sc.next();
 		System.out.println("Hello, "+name+"!");
 		sc.close();
 	}

@@ -22,6 +22,6 @@ public class Fooble {
 
 		// ip has been initialized when it was declared so we can't set its
 		// value in the constructor
-		// ip = 3.3333;
+//		 ip = 3.3333;
 	}
 }

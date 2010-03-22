@@ -3,10 +3,10 @@ package dk.aau.imi.med4.ooadp2009.javaintro.class03;
 public class Point {
 	public double x, y;
 
-//	public Point() {
-//		x = 2.0;
-//		y = 3.0;
-//	}
+	public Point() {
+		x = 2.0;
+		y = 3.0;
+	}
 
 	/**
 	 * Constructor that takes two double arguments, x and y.
@@ -18,10 +18,10 @@ public class Point {
 	 * 
 	 * then "this" refers to p.
 	 */
-//	public Point(double x, double y) {
-//		this.x = x;
-//		this.y = y;
-//	}
+	public Point(double x, double y) {
+		this.x = x;
+		this.y = y;
+	}
 
 }
 

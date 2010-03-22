@@ -7,7 +7,7 @@ public class FinalFields {
 		System.out.println("Fooble.pi = " + Fooble.pi);
 
 		// Now try to change value of pi field in Fooble
-		// Fooble.pi = 22.0/7;
+//		 Fooble.pi = 22.0/7;
 		// Can't do it because the pi field is final and it has already been
 		// assigned.
 
@@ -16,6 +16,7 @@ public class FinalFields {
 		Fooble f = new Fooble();
 		System.out.println("f.ip = " + f.ip);
 		System.out.println("f.beep = " + f.beep);
+		System.out.println("f.beep = " + f.pi);
 	}
 
 }

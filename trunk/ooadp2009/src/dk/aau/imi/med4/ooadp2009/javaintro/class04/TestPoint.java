@@ -9,7 +9,7 @@ public class TestPoint {
 		// Let's make a Point object and print its values
 
 		Point p = new Point(2.0, 3.0);
-		// System.out.println("p.x = " + p.x + " and p.y = " + p.y);
+//		 System.out.println("p.x = " + p.x + " and p.y = " + p.y);
 		// Cannot do this because x and y fields are now private and therefore
 		// invisible outside of a Point object.
 
