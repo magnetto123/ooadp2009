@@ -27,7 +27,7 @@ public class Gizmo {
 	/** 
 	 * @return The current value of the static field numberOfGizmos.
 	 */
-	public int getNumberOfGizmos() {
+	public static int getNumberOfGizmos() {
 		return numberOfGizmos;
 	}
 

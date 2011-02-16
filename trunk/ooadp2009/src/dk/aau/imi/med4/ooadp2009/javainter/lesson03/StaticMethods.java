@@ -23,7 +23,7 @@ public class StaticMethods {
 		 * We now call the static method, getNumberOfGizmos to print out the 
 		 * number of Gizmos created.
 		 */
-		System.out.println("numberOfGizmos = " + gizmoArray[0].getNumberOfGizmos());
+		System.out.println("numberOfGizmos = " + Gizmo.getNumberOfGizmos());
 
 		/*
 		 * Several standard classes also have useful static methods.
