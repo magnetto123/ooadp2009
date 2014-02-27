@@ -8,7 +8,7 @@ public class StaticFields {
 		for (Gizmo gizmo : gizmoArray)
 			System.out.println(gizmo);
 
-		System.out.println("numberOfGizmos = " + Gizmo.numberOfGizmos);
+		System.out.println("numberOfGizmos = " + Gizmo.numG);
 
 		// Following won't work because canIAlsoBeTheNumberOfGizmos is not
 		// static and there is therefore a separate copy of this variable for

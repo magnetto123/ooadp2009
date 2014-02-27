@@ -7,18 +7,18 @@ package dk.aau.imi.med4.ooadp2009.javainter.lesson01;
 public class Gizmo {
 
 	/**
-	 * numberOfGizmos stores the number of Gizmos that have been constructed. It
+	 * numG stores the number of Gizmos that have been constructed. It
 	 * is static, which means that there is only one copy of this variable,
 	 * stored in the class itself. Each Gizmo object does not have its own copy
 	 * of this field.
 	 */
-	public static int numberOfGizmos = 0;
+	public static int numG = 0;
 
 	/**
-	 * canIAlsoBeTheNumberOfGizmos cannot also be the number of Gizmos because
+	 * NOTnumG cannot also be the number of Gizmos because
 	 * it isn't static.
 	 */
-	public int canIAlsoBeTheNumberOfGizmos = 0;
+	public int NOTnumG = 0;
 
 	/**
 	 * id stores the id of this Gizmo
@@ -26,23 +26,23 @@ public class Gizmo {
 	public int id = 0;
 
 	/**
-	 * canIAlsoBeTheId can't be the ID because it is set using
-	 * canIAlsoBeTheNumberOfGizmos which isn't static.
+	 * NOTid can't be the ID because it is set using
+	 * NOTnumG which isn't static.
 	 */
-	public int canIAlsoBeTheId = 0;
+	public int NOTid = 0;
 
 	public Gizmo() {
 		// Increase static field numberOfGizmos before setting id.
-		id = ++numberOfGizmos;
+		id = ++numG;
 
 		// Following will always be set to 1.
-		canIAlsoBeTheId = ++canIAlsoBeTheNumberOfGizmos;
+		NOTid = ++NOTnumG;
 	}
 
 	public String toString() {
-		return "Gizmo: id=" + id + "; canIAlsoBeTheId=" + canIAlsoBeTheId
+		return "Gizmo: id=" + id + "; canIAlsoBeTheId=" + NOTid
 				+ "; canIAlsoBeTheNumberOfGizmos="
-				+ canIAlsoBeTheNumberOfGizmos;
+				+ NOTnumG;
 	}
 
 
